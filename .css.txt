@@ -1,0 +1,262 @@
+.css
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap');
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f7f8ef;
+    color: #536b50;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background: #e3ead9;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 15px #536b5015;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Caveat', cursive;
+    font-size: 32px;
+    color: #66845d;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #536b50;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #a1b68e;
+}
+
+/* HOME */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 10%;
+    background: linear-gradient(
+        135deg,
+        #f7f8ef,
+        #e4ecd9,
+        #d7e5ce
+    );
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.profile-image {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #edf1e5;
+    outline: 3px solid #a1b68e;
+    box-shadow: 0 8px 20px #536b5025;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
+.cute-tag {
+    font-family: 'Caveat', cursive;
+    font-size: 27px;
+    color: #8ba77c;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 65px;
+    color: #8ba77c;
+}
+
+.description {
+    line-height: 2;
+    font-size: 16px;
+    color: #71866b;
+    margin-bottom: 30px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    background: #8ba77c;
+    color: white;
+    padding: 14px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px #8ba77c44;
+}
+
+.btn:hover {
+    background: #66845d;
+    transform: translateY(-5px);
+}
+
+/* SECTIONS */
+.section {
+    padding: 90px 10%;
+    text-align: center;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    color: #9caf8d;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    color: #66845d;
+    margin-bottom: 35px;
+}
+
+/* ABOUT CARD */
+.about-card {
+    background: #edf1e5;
+    border: 1px solid #dce6d2;
+    padding: 40px;
+    border-radius: 25px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 8px 25px #536b5010;
+}
+
+.about-card p {
+    line-height: 2;
+    color: #71866b;
+}
+
+/* HOBBIES */
+.hobbies {
+    background: #e9efdf;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background: #fbfcf6;
+    width: 260px;
+    padding: 35px 25px;
+    border-radius: 25px;
+    border: 1px solid #dce6d2;
+    box-shadow: 0 8px 20px #536b5015;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px #536b5025;
+}
+
+.emoji {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #66845d;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #71866b;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background: #dce6d2;
+    text-align: center;
+    padding: 30px;
+    color: #66845d;
+    line-height: 2;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero h1 span {
+        font-size: 48px;
+    }
+
+    .section {
+        padding: 60px 6%;
+    }
+
+    .section h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 320px;
+    }
+}

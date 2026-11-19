@@ -1,0 +1,147 @@
+.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Julius Escobar | My Little Garden</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            
+            <img src="julius.jpg" alt="My Picture" class="profile-image">
+            
+            <p class="cute-tag">୨୧ welcome to my little garden ୨୧</p>
+
+            <h1>Hello, I'm <span>Julius Escobar</span></h1>
+
+            <p class="description">
+                Welcome to my little corner of the internet!
+                Here, you'll discover my interests, hobbies,
+                dreams, and a little story about myself.
+            </p>
+
+            <a href="#about" class="btn">Discover More ♡</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <p class="subtitle">GET TO KNOW ME</p>
+        <h2>About Myself</h2>
+
+        <div class="about-card">
+            <p>
+                Hello! My name is Julius Escobar.
+                I am someone who enjoys learning new things,
+                exploring my interests, and improving myself
+                every day.
+
+                This little website is where I share
+                my personality, experiences, and the things
+                that make me who I am.
+            </p>
+        </div>
+    </section>
+
+<!-- EDUCATIONAL BACKGROUND -->
+<section id="education" class="section education">
+    <p class="subtitle">MY LEARNING JOURNEY</p>
+    <h2>Educational Background</h2>
+
+    <div class="education-container">
+
+        <div class="emoji">🎒</div>
+            <h3>Elementary</h3>
+            <p><strong>School:</strong> Congressman Vicente Gustillo Senior Memorial School</p>
+            <p><strong>Year Graduated:</strong> 2020</p>
+
+        <div class="education-card">
+            <div class="emoji">📚</div>
+            <h3>Junior High School</h3>
+            <p><strong>School:</strong> Tañon College, Inc.</p>
+            <p><strong>Year Graduated:</strong> 2024</p>
+        </div>
+
+        <div class="education-card">
+            <div class="emoji">🎓</div>
+            <h3>Senior High School</h3>
+            <p><strong>School:</strong> Julio Ledesma National High School</p>
+            <p><strong>Strand:</strong> Accountancy, Business, and Managemend</p>
+            <p><strong>Year Graduated:</strong> 2026</p>
+        </div>
+
+        <div class="education-card">
+            <div class="emoji">🌸</div>
+            <h3>College</h3>
+            <p><strong>School:</strong> Carlos Hilado Memorial State University</p>
+            <p><strong>Course:</strong> Bachelor of Science in Information Technology</p>
+            <p><strong>Status:</strong> Currently Studying</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="section hobbies">
+        <p class="subtitle">THINGS I LOVE</p>
+        <h2>My Little Interests</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="emoji">🎮</div>
+                <h3>Gaming</h3>
+                <p>I enjoy playing games during my free time.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🎵</div>
+                <h3>Music</h3>
+                <p>I love listening to music and discovering songs.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🌱</div>
+                <h3>Technology</h3>
+                <p>I enjoy learning about computers and technology.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <h2>End.</h2>
+        <p>Thank you for visiting my little garden! ♡</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Made with ♡ by Julius Escobar</p>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
